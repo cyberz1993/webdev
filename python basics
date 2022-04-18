@@ -52,6 +52,10 @@ names = ["swen", "rob", "alice", "swen"]
 for i in count:
   count[i] = count.get(i, 0) + 1
 
+# print keys or values only 
+print(count.keys()) 
+print(count.values()) 
+
 
  
 
