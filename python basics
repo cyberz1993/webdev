@@ -1,1 +1,20 @@
+# this is a comment
 
+#variables 
+a = "hello world" 
+print(a) 
+
+#functions that work with string 
+a = "hello world" 
+print(len(a)) 
+"e" in a            #this returns True
+a.find("a")         #returns the position of a in the string in this case it will return -1 as a is not in the string "hello world" 
+
+#opening files and printing value starts with from 
+a = open("file.txt") 
+b = a.read()        #will save contents of file as one long string new lines contain the \n 
+for lines in a:
+  if lines.startswith("from"):
+    print(line) 
+ 
+ #dictionary
