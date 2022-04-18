@@ -17,4 +17,44 @@ for lines in a:
   if lines.startswith("from"):
     print(line) 
  
- #dictionary
+#dictionary
+#works based on key/value pairs, its like a built in database
+>>> purse = dict() 
+>>> purse['money'] = 12
+>>> purse['candy'] = 3
+>>> purse['tissues'] = 75
+>>> print(purse) 
+{'money': 12, 'tissues': 75, 'candy': 3'} 
+>>> print(purse['money']) 
+ 12
+>>> purse['candy'] = purse['candy'] + 2
+>>> print(purse['candy']:
+5 
+
+>>> "candy" in purse:
+True
+>>> "dog" in purse:
+False
+
+# idioms
+#long way 
+count = dict()
+names = ["swen", "rob", "alice", "swen"] 
+for i in count:
+  if i not in count():
+    count[i] = 1
+  else:
+    count[i] = count[i] + 1 
+
+#short way 
+count = dict() 
+names = ["swen", "rob", "alice", "swen"] 
+for i in count:
+  count[i] = count.get(i, 0) + 1
+
+
+ 
+
+
+
+
